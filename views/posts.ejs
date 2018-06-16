@@ -1,5 +1,6 @@
-<link rel="stylesheet" href="app.css">
+<%include partials/header%>
 <h1>Posts data will be here</h1>
 <%posts.forEach((post)=>{%>
     <li><%=post.title%> : <strong><%=post.hero%></strong></li>
 <%});%>
+<%include partials/footer%>

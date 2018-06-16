@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="app.css">
+<%include partials/header%>
 <h1>I am in Love with : <%= loves.toUpperCase() %></h1>
 
 <%if(loves === "react"){%>
@@ -6,3 +6,4 @@
 <%}else{%>
     <p>Maybe You better like React</p>
 <%}%>
+<%include partials/footer%>
